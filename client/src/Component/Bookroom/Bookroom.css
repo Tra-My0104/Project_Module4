@@ -1,0 +1,56 @@
+.containerBook{
+  margin: 0 auto;
+  width: 90%;
+}
+
+.containerItem{
+  width: 80%;
+  margin-left: 150px;
+  margin-bottom: 200px;
+}
+
+.sort-results{
+  width: 300px;
+  margin-top: 20px;
+  border: 1px solid rgba(195, 194, 194, 0.639);
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.item-right{
+  margin-bottom: 100px;
+}
+
+.item-right label{
+  font-weight: 500;
+  margin-left: 5px;
+}
+
+.containerFilter{
+  width:  300px;
+  margin-top: 20px;
+  border: 1px solid rgba(195, 194, 194, 0.639);
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.containerItem{
+  display: flex;
+}
+
+.item-left{
+  margin-left: 20px;
+}
+
+.itemRoom{
+  display: flex;
+  margin-left: 20px;
+  margin-top: 15px;
+  width: 757px;
+  gap: 76px;
+  border: 1px solid rgba(0, 119, 255, 0.589);
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}

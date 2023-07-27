@@ -1,0 +1,77 @@
+.container-infor{
+  display: flex;
+  justify-content: space-around;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.formInfor{
+  width: 40%;
+}
+
+.infor{
+  border: 1px solid rgba(213, 213, 213, 0.68);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+
+.formMoney{
+  border: 1px solid rgba(213, 213, 213, 0.68);
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.formMoney span {
+  margin-left: 255px;
+  color: red;
+}
+
+.formMoney p {
+  font-weight: 500;
+}
+
+.formInfor label{
+  font-weight: 500;
+  margin-bottom: 0px;
+  margin-left: 4px;
+}
+
+.formInfor input {
+  outline: none;
+  border-color: rgba(234, 234, 234, 0.788);
+}
+
+.formInfor h5 {
+  font-weight: 500;
+  margin: 15px 10px 13px 8px;
+}
+
+.inforHotel{
+  width: 300px;
+  border: 1px solid rgba(213, 213, 213, 0.68);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  height: 450px;
+  margin-top: 48px;
+}
+
+.inforHotel h5 {
+  font-weight: 500;
+}
+
+.inforHotel img {
+  border-radius: 5px;
+}
+
+.inforHotel p {
+  font-weight: 500;
+}
+
+.inforHotel span {
+  color: rgb(0, 60, 157);
+}

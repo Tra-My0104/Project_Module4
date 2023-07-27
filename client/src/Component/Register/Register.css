@@ -1,0 +1,66 @@
+.color-header-register{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(17, 164, 255);
+    margin: 10px 0px 30px 0px;
+}
+
+.container-register{
+    display: flex;
+    margin-bottom: 300px;   
+}
+
+.item-endow {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    width: 50%;
+    margin-left: 30px;
+  }
+
+.form-register{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(183, 183, 183, 0.589);
+    border-radius: 8px;
+    width: 450px;
+    height: 700px;
+    position: absolute;
+    right: 100px;
+    top: 167px;
+}
+
+.register-form{
+    margin-left: 20px;
+}
+
+.register-form label {
+    margin-bottom: 1px;
+    font-weight: 500;
+}
+
+.register-form .input{
+    margin-bottom: 15px;
+    width: 360px;
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid rgb(192, 192, 192);
+}
+
+.loginBtn{
+    background-color: rgb(255, 94, 31);
+    color: white;
+    border-radius: 5px;
+    height: 40px;
+    border: none;
+    margin-top: 10px;
+    width: 120px;
+    font-size: large;
+    font-weight: 700;
+}
+
+.lock{
+    border: 1px solid rgba(196, 196, 196, 0.39);
+    border-radius: 5px;
+    padding: 10px;
+}
+

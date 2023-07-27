@@ -1,0 +1,307 @@
+.homePage {
+  width: 100%;
+}
+
+.homePage {
+  padding-top: 10px;
+}
+
+.slick-next {
+  display: none !important;
+}
+
+.slick-prev {
+  display: none !important;
+}
+
+.item_left {
+  background-color: rgba(220, 220, 220, 0.381);
+  margin-top: 30px;
+  width: 250px;
+  border-radius: 10px;
+  border-right: 1px solid #cac9c9;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.item_left li {
+  font-weight: 600;
+  margin-left: 20px;
+  margin-top: 12px;
+}
+
+.slick-slider {
+  background-color: rgba(73, 179, 232, 1);
+}
+
+.list-item {
+  display: flex;
+  margin-left: 200px;
+  padding: 20px;
+}
+
+.item_right {
+  width: 800px;
+  height: 430px;
+  margin-top: 25px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.container_home {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.container_home h4 {
+  margin-top: 30px;
+  font-weight: 600;
+  font-size: x-large;
+}
+
+.item_1 {
+  display: flex;
+}
+
+.item_1 p {
+  font-weight: 600;
+  margin-left: 30px;
+}
+
+.btn_home button {
+  border: none;
+  background-color: #ffffff;
+  height: 40px;
+  width: 150px;
+  border-radius: 30px;
+  color: #0770cd;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.item_2 {
+  display: flex;
+}
+
+.item_2 img {
+  margin-left: 20px;
+  border-radius: 10px;
+  width: 400px;
+}
+
+.item_3 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+  margin-right: 150px;
+}
+
+.item_3 img {
+  width: 400px;
+  border-radius: 10px;
+  height: 200px;
+}
+
+.item_4 img {
+  margin: 10px;
+  height: 238px;
+  width: 238px;
+  border-radius: 10px;
+}
+
+.btn_att {
+  border: none;
+  background-color: #0770cd;
+  height: 40px;
+  width: 150px;
+  border-radius: 30px;
+  color: #ffffff;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.btn_tour {
+  border: none;
+  background-color: #ffffff;
+  height: 40px;
+  width: 150px;
+  border-radius: 30px;
+  color: #0770cd;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.item_5 {
+  display: flex;
+  gap: 20px;
+}
+
+.item_5 img {
+  width: 240px;
+  height: 159px;
+}
+
+.item_5 p {
+  font-weight: 600;
+  margin-left: 20px;
+}
+
+.item_6 img {
+  width: 209px;
+  height: 271px;
+  margin: 20px 40px 20px 10px;
+  border-radius: 10px;
+}
+
+.item_7 {
+  display: flex;
+  max-width: 750px;
+  margin-left: 270px;
+}
+
+.item_7 div {
+  margin: 10px 4px 55px 22px;
+  text-align: center;
+}
+
+.btn_itemRight {
+  margin: 2px 0px -4px 0px;
+}
+
+.btn1 {
+  margin-right: 20px;
+  color: #32afed;
+  background-color: #e4e3e34d;
+  height: 40px;
+  width: 268px;
+  border: 1px solid white;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+.App {
+  text-align: center;
+}
+
+.calendar {
+  width: 350px;
+  height: 450px;
+  border: 1px solid #ccc;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #ffffff;
+}
+
+.calendar-header button {
+  border: none;
+  background-color: #ffffff;
+  color: #989898;
+}
+
+.past-day {
+    opacity: 0.5; /* Mờ đi */
+  }
+  
+  .sunday {
+    color: red; /* Màu đỏ */
+  }
+  
+
+.calendar-body {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  padding: 10px;
+}
+
+.price {
+  font-weight: 400;
+  font-size: small;
+  margin-left: -20px;
+  margin-top: 14px;
+  color: #989898;
+}
+
+.calendar-day {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.calendar-day-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+  font-weight: 500;
+  color: #6b6c6c;
+}
+
+.calendar-day:hover {
+  cursor: pointer;
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.form_itemRight {
+  border-radius: 23px;
+  padding: 28px;
+  width: 100%;
+}
+
+.form_itemRight label {
+  margin-bottom: 0px;
+  font-weight: 600;
+  margin-left: 6px;
+}
+
+.form_itemRight select {
+  margin-top: 5px;
+}
+
+.form_itemRight .dropdown-toggle {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+
+#dropdown-basic {
+  color: #333;
+}
+
+.btn-primary.dropdown-toggle:focus {
+  display: none;
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+
+.show > .btn-primary.dropdown-toggle {
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+
+.item_middle {
+  display: flex;
+  justify-content: space-around;
+  margin-left: -58px;
+}
+
+.item_bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 34px;
+}
+
+
+

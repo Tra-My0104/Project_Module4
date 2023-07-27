@@ -1,0 +1,100 @@
+.containerInfor{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.itemLeft{
+  width: 400px;
+  height: 600px;
+  border: 1px solid rgb(196, 196, 196);
+  border-radius: 10px;
+}
+
+.inforName{
+  display: flex;
+  border-bottom: 1px solid gray;
+  width: 400px;
+}
+
+.listInfor ul li{
+  font-weight: 500;
+  margin-top: 10px;
+  font-size: larger;
+  margin-left: 50px;
+}
+
+.itemRight{
+  width: 800px;
+  height: 850px;
+}
+
+.itemRight a .nav_link .active{
+  color: rgb(22, 160, 229);
+  border-bottom: 1px solid rgb(46, 174, 248);
+}
+
+.itemRight a {
+  font-weight: 600;
+  font-size: larger;
+  color: gray;
+}
+
+.item1{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.btn-infor{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn-infor button{
+  border: none;
+  margin: 20px;
+  width: 70px;
+  height: 40px;
+  border-radius: 10px;
+  font-weight: 500;
+}
+
+.btn-infor button:hover{
+  background-color: orange;
+  color: rgb(255, 255, 255);
+}
+
+.itemTop{
+  margin-top: 10px;
+  border: 1px solid rgba(192, 192, 192, 0.863);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+
+.itemTop p {
+  font-weight: 600;
+  margin-bottom: 5px;
+  margin-top: 15px;
+}
+
+.itemMiddle{
+  margin-top: 10px;
+  border: 1px solid rgba(192, 192, 192, 0.863);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.itemBottom{
+  display: flex;
+  margin-top: 10px;
+  border: 1px solid rgba(192, 192, 192, 0.863);
+  border-radius: 10px;
+  height: 140px;
+  padding: 20px;
+}
+
+
+

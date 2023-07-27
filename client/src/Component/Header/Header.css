@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.containerNavHeader{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar_item{
+    background-color: #ffffff;
+    height: 83px;
+}
+
+.navbarHeader{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3px;
+}
+
+
+.color-line{
+    border-top: 4px solid rgba(1,148,243,1.00);
+}
+
+.textHeader{
+    margin-top: 5px;
+}
+
+.textHeader p {
+    font-weight: 400;
+}
+
+.btnHeader{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: none;
+    outline: none;
+    box-shadow: none !important;
+}
+
+.btnHeader:focus, .btnHeader:hover, .btnHeader:visited{
+    background-color: rgba(222, 199, 199, 0.299) !important;
+    color: black;
+    outline: none;
+}
+
+.btnHeader:visited{
+    background-color: rgba(222, 199, 199, 0.299) !important;
+    color: black;
+}
+
+.registerBtn{
+    color: white;
+    font-weight: 600;
+    height: 40px;
+}
+
+.login{
+    margin-left: 20px;
+}
+
+.login label{
+    margin-top: 10px;
+    margin-bottom: revert;
+    font-weight: 700;
+}
+
+.login input {
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid rgb(179, 179, 179);
+}
+
+.login input:hover{
+    border: 1px solid black;
+}
+
+a {
+    text-decoration: none;
+}
+
+.login a {
+    margin-left: 58px;
+}
+
+.btn-login{
+    background-color: rgb(255, 94, 31);
+    color: white;
+    border-radius: 5px;
+    height: 40px;
+    border: none;
+    margin-top: 20px;
+    width: 120px;
+    font-size: large;
+    font-weight: 700;
+}
+
+.btn-fb-gg{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(219, 220, 221, 0.292);
+}
+
+.dropdown-navbar{
+    display: flex;
+    margin-left: 100px;
+}
+
+.dropdown-navbar .dropdown-toggle {
+    margin-right: 20px; /* Thêm khoảng cách bên phải */
+  }
+
+.log-out{
+    border: none;
+    background-color: white;
+    font-size: 15px;
+    margin-left: 18px;
+    color :rgb(251, 0, 0)
+}
+
+.log-out:hover{
+    background-color: rgb(87, 86, 86)167, 167 ;
+}
+
+.fa-power-off{
+    margin-right: 10px;
+}
+
+#toggle-form{
+    position: absolute;
+    z-index: 1000;
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid #dadada;
+    top: 45px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.edit-infor{
+    border: none;
+    background-color: white;
+    font-size: 17px;
+    margin-left: 24px;
+    margin-top: 5px;
+    font-weight: 500;
+    color :rgb(11, 155, 245);
+}

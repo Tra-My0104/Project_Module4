@@ -1,0 +1,30 @@
+.container-adminUser{
+  display: flex;
+}
+
+.table{
+  width: 80%;
+  background-color: rgb(186, 229, 241);
+  text-align: center;
+  margin: 0 auto;
+  height: 200px;
+  margin-top: 30px;
+}
+
+.table td{
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #040404;
+    background-color: white;
+}
+
+.table th, .table td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid black;
+  border-bottom: 1px solid #000;
+}
+
+.table th {
+  background-color: #61caff;
+}

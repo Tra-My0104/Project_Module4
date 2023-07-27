@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+}
+
+.calendar {
+  width: 350px;
+  height: 450px;
+  border: 1px solid #ccc;
+  margin: 0 auto;
+  border-radius: 10px;;
+}
+
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #ffffff;
+}
+
+.calendar-header button{
+  border: none;
+  background-color: #ffffff;
+  color: #989898;
+}
+
+.calendar-day.sunday {
+  color: red;
+}
+
+.calendar-body {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  padding: 10px;
+}
+
+.price{
+  font-weight: 400;
+  font-size: small;
+  margin-left: -20px;
+  margin-top: 14px;
+  color: #989898;
+}
+
+.calendar-day {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.calendar-day-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+  font-weight: 500;
+  color: #6b6c6c;
+}
+
+.calendar-day:hover{
+  cursor: pointer;
+  background-color: #f2f2f2;
+  color: #333;
+}
